@@ -23,18 +23,15 @@ function nowServing (line) {
   
   if (length===0) {
   
-  return "There is nobody waiting to be served!"
+  return "There is nobody waiting to be served!";
   
   } else {
     
-     return `Currently serving ${firstPerson}.`
+     return `Currently serving ${firstPerson}.`;
 
 }
 }
 
-
-
-// Current line loop!!!!!!
 
 
 function currentLine(line) {
