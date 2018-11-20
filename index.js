@@ -27,19 +27,22 @@ function nowServing (line) {
   
   } else {
     
-     return (`Currently serving ${firstPerson}.`)}
-  
+     return (`Currently serving ${firstPerson}.`)
 
 }
+}
+
+
+
+// Current line loop!!!!!!
+
 
 function currentLine(line) {
-  
   
   if (line.length===0) {
   
   return ("The line is currently empty.")
   }
-  
  else {
    
    var currentLine=[]
@@ -48,8 +51,7 @@ function currentLine(line) {
    
    currentLine.push(i+1 + ". " + line[i])
    
-   }
-  return ("The line is currently: ") + (currentLine.join(", "))
+   } return ("The line is currently: ") + (currentLine.join(", "))
   
   }
 }
