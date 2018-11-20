@@ -6,7 +6,7 @@ function takeANumber (line,  name) {
   
   var i = line.length;
   
-  return (`Welcome, ${name}. You are number ${i} in line.`);
+  return `Welcome, ${name}. You are number ${i} in line.`;
 }
 
 
@@ -27,7 +27,7 @@ function nowServing (line) {
   
   } else {
     
-     return (`Currently serving ${firstPerson}.`)
+     return `Currently serving ${firstPerson}.`
 
 }
 }
