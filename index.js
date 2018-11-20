@@ -1,12 +1,14 @@
 // take a number 
 
-function takeANumber (line,  name) {
+function takeANumber (line) {
   
-  line.push(name);
+  line.push(number);
   
-  var i = line.length;
+  var i = 1;
   
-  return `Welcome, ${name}. You are number ${i} in line.`;
+  i++;
+  
+  return `You are number ${i} in line.`;
 }
 
 
